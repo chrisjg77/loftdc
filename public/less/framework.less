@@ -1,0 +1,42 @@
+.header {
+  &.section {
+    position: relative;
+  }
+}
+
+.body {
+  &.section {
+    padding: 3em 0;
+  }
+}
+
+.banner {
+  &.parallax {
+    height: 640px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.title {
+  &.section {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    .transform(translateX(-50%));
+  }
+}
+
+.image {
+  &.crop {
+    overflow: hidden;
+    height: @main_crop_size;
+    width: @main_crop_size;
+    .border-radius (@main_crop_radius);
+  }
+  &.full {
+    text-align: center;
+  }
+}

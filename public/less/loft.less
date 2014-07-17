@@ -1,0 +1,97 @@
+
+body,
+html {
+  font-family: 'calluna', 'georgia', serif;
+}
+
+h1,h2,h3 {
+  font-family: 'modesto-text', serif;
+}
+
+header {
+  background: url('../img/loft-image-1.jpg') no-repeat center center;
+  background-size: cover;
+
+  &::before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/diamond6.png') repeat;
+    opacity: 0.5;
+    // background: rgba(0,0,0,0.25);
+  }
+
+  &::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.55);
+  }
+}
+
+.background-overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('../img/diamond6.png') repeat;
+}
+
+.image {
+  &.crop {
+    background: #e3e3e3;
+    border-radius: 50%;
+  }
+}
+
+.banner {
+  position: relative;
+
+  &.parallax {
+    &::before {
+      content: " ";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url('../img/diamond6.png') repeat;
+      opacity: 0.5;
+      // background: rgba(0,0,0,0.25);
+    }
+
+    &::after {
+      content: " ";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,0.55);
+    }
+  }
+}
+
+
+.title {
+  &.section {
+    color: #fefefe;
+    text-transform: uppercase;
+    width: 13em;
+    height: 13em;
+    background: #DBA818;
+    .table;
+    .border-radius (50%);
+
+    h2 {
+      text-align: center;
+      .table-cell;
+    }
+  }
+}

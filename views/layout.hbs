@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{title}}</title>
+  {{#each css}}
+  <link rel="stylesheet" href="{{this.href}}" />
+  {{/each}}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <nav>
+    {{#each sections}}
+    <a href="{{this.href}}">{{this.title}}</a>
+    {{/each}}
+  </nav>
+
+  <header class="view-fullscreen">
+  </header>
+
+  {{#each sections}}
+  <section id="{{this.name}}">
+    {{{section this.name this}}}
+  </section>
+  {{/each}}
+
+  {{#each js}}
+  <script type="text/javascript" src="{{this.href}}"></script>
+  {{/each}}
+
+  <script type="text/javascript" src="//use.typekit.net/{{{typekit.id}}}.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+</body>
+</html>

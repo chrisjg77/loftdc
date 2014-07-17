@@ -1,0 +1,45 @@
+site:
+  title: The Loft at 600F
+  domain: localhost:3000
+  protocol: http
+  typekit:
+    id: mvw7mfc
+  css:
+    -
+      href: /css/style.css
+  js:
+    -
+      href: /vendor/jquery-1.8.3.min.js
+  sections:
+    -
+      name: about
+      title: About
+      header: false
+      tagline: "The Loft at 600 F is a vibrant, exciting, and inviting event space in the Penn Quarter/Chinatown neighborhood of Washington DC."
+      body: "Perched on the third floor of a historic building across from the Verizon Center, the light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br><br> Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making The Loft at 600 F the best new place to meet in DC."
+    -
+      name: the-space
+      title: The Space
+      header: true
+      header_image: /img/loft-image-2.jpg
+    -
+      name: events
+      title: Events
+    -
+      name: gallery
+      title: Gallery
+    -
+      name: contact-us
+      title: Contact Us
+network:
+  domain: localhost
+log:
+  trace: true
+  req:
+    enable: true
+flickrOptions:
+  key: 0c07b11313acc6e708c7e5360b6d61ef
+  secret: ec34b66f5a1b0c4d
+  user_id: 126110510@N03
+  access_token: 72157645676835476-fe5e507cc7ce76e9
+  access_token_secret: 774ba626f4e5ebd3
