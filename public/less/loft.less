@@ -1,10 +1,20 @@
+/*
+ * Theme Name    : Loft
+ * Theme Author  : Chris Griffith
+ * Created       : 7/16/2014
+ * Last Updated  : 7/17/2014
+ * ====================================
+ */
 
+/*
+ * Base framework overrides
+ */
 body,
 html {
   font-family: 'calluna', 'georgia', serif;
 }
 
-h1,h2,h3 {
+h1,h2 {
   font-family: 'modesto-text', serif;
 }
 
@@ -35,14 +45,24 @@ header {
   }
 }
 
-.background-overlay {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: url('../img/diamond6.png') repeat;
+hr {
+  background: url('../img/flourish-3.png') no-repeat center center;
+  background-size: 50%;
+  border: none;
+  opacity: 0.2;
 }
 
+nav {
+  a {
+    font-family: 'modesto-text', serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+/*
+ * Framework componenet overrides
+ */
 .image {
   &.crop {
     background: #e3e3e3;
@@ -94,4 +114,13 @@ header {
       .table-cell;
     }
   }
+}
+
+.note {
+  color: #DBA818;
+  font-size: 1em;
+  margin-right: 0.25em;
+  position: relative;
+  top: -2px;
+  display: inline-block;
 }

@@ -5,23 +5,58 @@ site:
   typekit:
     id: mvw7mfc
   css:
-    -
-      href: /css/style.css
+    - href: /css/style.css
   js:
-    -
-      href: /vendor/jquery-1.8.3.min.js
+    - href: /vendor/jquery-1.8.3.min.js
+    - href: /js/parallax.js
   sections:
     -
       name: about
       title: About
       header: false
       tagline: "The Loft at 600 F is a vibrant, exciting, and inviting event space in the Penn Quarter/Chinatown neighborhood of Washington DC."
+      image: "/img/loft-table.jpg"
+      caption: "A fully set table at the Loft"
       body: "Perched on the third floor of a historic building across from the Verizon Center, the light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br><br> Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making The Loft at 600 F the best new place to meet in DC."
     -
       name: the-space
       title: The Space
       header: true
       header_image: /img/loft-image-2.jpg
+      body:
+        -
+          image: /img/floor-plan.png
+          caption: "<strong>Total Square Footage:</strong> 2,152 square feet"
+          plain_caption: "Total Square Footage: 2,152 square feet"
+        -
+          copy: "The Loft at 600 F is a versatile space, available for whatever your event needs may be. The light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br><br>Perfect for happy hours, networking events, book signings, meet-and-greets, as a pre- or after party lounge and so much more. Exposed brick, large windows and cozy modern touches distinguish this space as the hip new place to meet."
+          equipment:
+            title: Furniture/Equipment <span class="note">*</span>
+            list:
+              - text: "Custom sofas, available in various setups"
+              - text: "Movable bars"
+              - text: "Cofee table, site tables, and credenzas"
+              - text: "Up-lighting and accent lighting"
+              - text: "Highboy round tables"
+              - text: "6' X 15' Classroom tables and black rectangular linens"
+              - text: "Standing podium"
+              - text: "Easels"
+              - text: "Coat racks"
+              - text: "Folding chairs"
+              - text: "Microwave, kitchen sink, and mini-fridge"
+          av:
+            title: A/V Capabilities
+            list:
+              - text: "HD projector"
+              - text: "HDMI"
+              - text: "10' widescreen projection screen"
+              - text: "Surround sound receiver"
+              - text: "BluRay player"
+              - text: "Mac Mini"
+              - text: '55" HD television'
+              - text: "WiFi"
+          note: <span class="note">*</span>Furniture and equipment listed are complimentary with all Loft reservations.
+
     -
       name: events
       title: Events

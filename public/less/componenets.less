@@ -1,0 +1,89 @@
+
+/* Headers
+ *
+ * 1. Section Header
+ */
+.header {
+  &.section {
+    position: relative;
+  }
+}
+
+/* Bodies
+ *
+ * 1. Section Body
+ */
+.body {
+  &.section {
+    padding: 3em 0;
+  }
+}
+
+/* Banners
+ *
+ * 1. Parallax Banner
+ */
+.banner {
+  &.parallax {
+    height: 640px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+/* Titles
+ *
+ * 1. Section Title
+ * 2. List Title
+ */
+.title {
+  &.section {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    .transform(translateX(-50%));
+  }
+  &.list {
+    list-style-type: none;
+    margin-left: 0;
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
+
+/* Images
+ *
+ * 1. Crop Images
+ * 2. Full-width Images
+ * 3. Gallery Thumbnails
+ */
+.image {
+  &.crop {
+    overflow: hidden;
+    position: relative;
+    height: @main_crop_size;
+    width: @main_crop_size;
+    .border-radius (@main_crop_radius);
+
+    &::before {
+      content: "";
+      margin: 3%;
+      border: 1px solid fadeout(#fefefe,30%);
+      position: absolute;
+      width: 94%;
+      height: 94%;
+      .border-radius(@main_crop_radius);
+    }
+    img {
+      min-width: 100%;
+      min-height: 100%;
+      max-width: 100%;
+    }
+  }
+  &.full {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+}

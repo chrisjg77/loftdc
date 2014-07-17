@@ -1,10 +1,15 @@
 
+@auto: #1b1b1b;
+@auto_light: lighten(@auto,25%);
+@auto_lighter: lighten(@auto,45%);
+
 body,
 html {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.6;
+  color: @auto;
 }
 
 header {
@@ -23,11 +28,15 @@ h1, h2, h3 {
 h2 {
   font-size: 1.83em;
 }
+h3 {
+  font-size: 1.11em;
+}
 
 p {
   font-weight: 100;
   font-size: 1em;
   font-size: 0.94em;
+  margin-bottom: 1em;
 }
 blockquote {
   font-weight: 100;
@@ -37,12 +46,33 @@ blockquote {
   padding: 1em 0;
 }
 
+strong {
+  font-weight: bold;
+}
+em {
+  font-size: 0.83em;
+  color: @auto_lighter;
+}
+
 hr {
   width: 80%;
   margin: 0 10%;
-  padding: 2em 0;
+  padding: 4em 0;
   border: none;
   border-bottom: 1px solid #e3e3e3;
+}
+
+ul {
+  padding-left: 0.25em;
+  line-height: 1.25;
+  margin-bottom: 1em;
+}
+li {
+  color: @auto_light;
+  font-size: 0.83em;
+  list-style-type: disc;
+  margin: 0.75em 0 0.75em 1em;
+  padding-left: 0.25em;
 }
 
 nav {

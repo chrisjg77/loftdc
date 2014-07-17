@@ -13,7 +13,6 @@
   }
 }
 
-
 /* Views
  **/
 .view-fullscreen {
@@ -21,7 +20,8 @@
   width: 100%;
 }
 
-
+/* Table blocks.
+ **/
 .table {
   display: table;
 }
@@ -33,4 +33,12 @@
 
 .pad-right {
   padding-right: 3em;
+}
+
+/* Responsive elements.
+ **/
+.hide-until-md {
+  @media screen and (max-width: @break_md) {
+    display: none;
+  }
 }

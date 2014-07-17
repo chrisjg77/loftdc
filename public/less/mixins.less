@@ -1,14 +1,13 @@
 /*
- * Text Formatting
- **/
+ * Formatting
+ */
 .text-centered {
   text-align: center;
 }
 
-
 /*
  * Clearfix
- **/
+ */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -21,9 +20,9 @@
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
 /*
+ * The following mixins are sourced from:
  * http://css-tricks.com/snippets/css/useful-css3-less-mixins/
  **/
-
 .text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
   text-shadow: @string;
 }

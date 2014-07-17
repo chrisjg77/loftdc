@@ -8,10 +8,32 @@
 </div>
 <div class="body section">
   <div class="wrapper wrapper-section grid">
-    <div class="block block-xs-12 image full">
-      <img src="/img/floor-plan.png" />
+    <div class="block block-xs-12 text-centered">
+      <img class="image full" src="{{{body.0.image}}}" alt="{{{body.0.plain_caption}}}" />
+      <p>{{{body.0.caption}}}</p>
     </div>
-
     <hr>
+    <div class="block block-lg-6">
+      <p>{{{body.1.copy}}}</p>
+    </div>
+    <div class="block block-sm-6 block-lg-3">
+      <h3>{{{body.1.equipment.title}}}</h3>
+      <ul>
+        {{#each body.1.equipment.list}}
+          <li>{{{this.text}}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="block block-sm-6 block-lg-3">
+      <h3 class="title list">{{{body.1.av.title}}}</h3>
+      <ul>
+      {{#each body.1.av.list}}
+        <li>{{{this.text}}}</li>
+      {{/each}}
+      </ul>
+    </div>
+    <div class="block block-xs-12 text-centered">
+      <em>{{{body.1.note}}}</em>
+    </div>
   </div>
 </div>
