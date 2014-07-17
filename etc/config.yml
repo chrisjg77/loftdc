@@ -1,6 +1,7 @@
 site:
   title: The Loft at 600F
   domain: localhost:3000
+  brand: /img/loft-logo-white.png
   protocol: http
   typekit:
     id: mvw7mfc
@@ -15,7 +16,7 @@ site:
       title: About
       header: false
       tagline: "The Loft at 600 F is a vibrant, exciting, and inviting event space in the Penn Quarter/Chinatown neighborhood of Washington DC."
-      image: "/img/loft-table.jpg"
+      image: /img/loft-table.jpg
       caption: "A fully set table at the Loft"
       body: "Perched on the third floor of a historic building across from the Verizon Center, the light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br><br> Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making The Loft at 600 F the best new place to meet in DC."
     -
@@ -60,6 +61,29 @@ site:
     -
       name: events
       title: Events
+      header: true
+      header_image: /img/loft-image-5.jpg
+      body:
+        -
+          title: Types of Events
+          copy: "The Loft at 600 F is a multi-purpose space that can be set to accomodate events of all kinds, including:"
+          events:
+            - text: "Corporate meetings and conferences"
+            - text: "Birthday parties"
+            - text: "Weddings"
+            - text: "Engagement parties, bridal showers, and baby showers"
+            - text: "Pop-ups for retail, art galleries, or group classes"
+            - text: "Fundraisers"
+            - text: "Happy hours"
+            - text: "Screenings"
+            - text: "Book signings"
+            - text: "Photo shoots"
+            - text: "Holiday events"
+          image: ""
+        -
+          title: Catering
+          copy: "The loft at 600F allows outside catering of all kinds. Our preferred vendors appear below, but other vendors may provide service on-site with proof of insurance.<br><br>Clients are required to hire an ABC licensed bartender (or full-service caterer) if alcohol will be served at their event. <i>Proof of licensing and insurance is required</i>."
+
     -
       name: gallery
       title: Gallery

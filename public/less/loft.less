@@ -61,12 +61,29 @@ nav {
 }
 
 /*
+ * Theme mixins
+ */
+.inner-circle {
+    content: "";
+    margin: 4%;
+    border: 1px solid fadeout(#fefefe,30%);
+    position: absolute;
+    width: 92%;
+    height: 92%;
+    .border-radius(@main_crop_radius);
+}
+
+/*
  * Framework componenet overrides
  */
 .image {
   &.crop {
     background: #e3e3e3;
     border-radius: 50%;
+
+    &::before {
+      .inner-circle;
+    }
   }
 }
 
@@ -106,8 +123,13 @@ nav {
     width: 13em;
     height: 13em;
     background: #DBA818;
+    border: 1px solid fadeout(#fefefe,30%);
     .table;
     .border-radius (50%);
+
+    &::before {
+      .inner-circle;
+    }
 
     h2 {
       text-align: center;

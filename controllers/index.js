@@ -7,6 +7,7 @@ controller.get(['/'], index);
 
 function index (req, res, next) {
   res.vars.title = conf.title;
+  res.vars.brand = conf.brand;
   res.vars.sections = conf.sections;
   res.vars.typekit = conf.typekit;
   res.vars.css = conf.css;

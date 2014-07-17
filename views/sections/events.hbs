@@ -1,0 +1,25 @@
+<div class="header section">
+  {{#if header}}
+  <div class="banner parallax" style="background-image: url('{{{header_image}}}');"></div>
+  <div class="title section">
+    <h2>{{{title}}}</h2>
+  </div>
+  {{/if}}
+</div>
+<div class="body section">
+  <div class="wrapper wrapper-section grid">
+    <div class="block block-lg-5">
+      <h3>{{{body.0.title}}}</h3>
+      <p>{{{body.0.copy}}}</p>
+      <ul>
+        {{#each body.0.events}}
+          <li>{{{this.text}}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="block block-lg-7">
+      <h3>{{{body.1.title}}}</h3>
+      <p>{{{body.1.copy}}}</p>
+    </div>
+  </div>
+</div>

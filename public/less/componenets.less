@@ -9,6 +9,26 @@
   }
 }
 
+/* Brand/Logo
+ *
+ * 1. Site Brand
+ */
+.brand {
+  &.site {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    z-index: 99;
+    text-align: center;
+
+    img {
+      width: 100%;
+      width: 80%;
+      max-width: 900px;
+    }
+  }
+}
+
 /* Bodies
  *
  * 1. Section Body
@@ -67,15 +87,6 @@
     width: @main_crop_size;
     .border-radius (@main_crop_radius);
 
-    &::before {
-      content: "";
-      margin: 3%;
-      border: 1px solid fadeout(#fefefe,30%);
-      position: absolute;
-      width: 94%;
-      height: 94%;
-      .border-radius(@main_crop_radius);
-    }
     img {
       min-width: 100%;
       min-height: 100%;

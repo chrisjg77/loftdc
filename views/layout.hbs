@@ -15,6 +15,14 @@
   </nav>
 
   <header class="view-fullscreen">
+    <div class="brand site">
+      {{#if brand}}
+        <h1 class="hidden">{{{title}}}</h1>
+        <img src="{{{brand}}}" style="margin-left: -5%;" />
+      {{else}}
+        <h1>{{{title}}}</h1>
+      {{/if}}
+    </div>
   </header>
 
   {{#each sections}}

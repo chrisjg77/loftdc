@@ -1,10 +1,25 @@
 (function() {
   $(function() {
 
-    var $window = $(window);
+    var $window = $(window)
+      , keyframes = [
+        {
+          'wrapper': 'header',
+          'duration': '100%',
+          'animations': [
+            {
+              'selector': '.brand',
+              'scale': 0,
+              'opacity': 0
+            }
+          ]
+
+        }
+      ]
+
+
 
     var lax = {
-
 
       init: function() {
         $window.scroll(this.updatePage);
@@ -17,7 +32,6 @@
     }
 
     lax.init();
-
 
   })
 }).call(this);
