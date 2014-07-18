@@ -25,8 +25,8 @@
             {
               'selector': '.banner.parallax',
               'opacity': [1,1],
-              'translateY': [0,0],
-              'background_position': [0,500],
+              'translateY': [0,500],
+              'background_position': [0,0],
               'duration': 1500
             }
           ]
@@ -38,8 +38,21 @@
             {
               'selector': '.banner.parallax',
               'opacity': [1,1],
-              'translateY': [0,0],
-              'background_position': [0,500],
+              'translateY': [0,500],
+              'background_position': [0,0],
+              'duration': 1500
+            },
+          ]
+        },
+        {
+          'wrapper': 'section:eq(4)',
+          'offset': -900,
+          'animations': [
+            {
+              'selector': '.banner.parallax',
+              'opacity': [1,1],
+              'translateY': [0,500],
+              'background_position': [0,0],
               'duration': 1500
             }
           ]
@@ -64,11 +77,13 @@
 
           if($window.scrollTop() > top && $window.scrollTop() < bottom) {
 
-            if (keyframes[i].animations[0]) {
-              var $elem = $(keyframes[i].wrapper + ' ' + keyframes[i].animations[0].selector);
-            }
+            // if (keyframes[i].animations[0]) {
+            //   var $elem = $(keyframes[i].wrapper + ' ' + keyframes[i].animations[0].selector);
+            // }
 
             for(j=0;j<keyframes[i].animations.length;j++) {
+
+              var $elem = $(keyframes[i].wrapper + ' ' + keyframes[i].animations[j].selector);
 
               var animation = keyframes[i].animations[j];
               var duration = keyframes[i].animations[j].duration;
@@ -76,7 +91,6 @@
               opacity = calcValues(animation,'opacity',duration);
               translateY = calcValues(animation,'translateY',duration);
               background_position = calcValues(animation,'background_position',duration);
-              console.log(background_position);
 
               if ($window.scrollTop() > bottom) {
                 $elem.hide();
@@ -102,7 +116,12 @@
     calcValues = function(animation,property,duration) {
 
       var value = animation[property];
-      return easeInOutQuad(relScrollTop,value[0],value[1]-value[0],duration).toFixed(2);
+      if (property === 'translateY') {
+        return Math.round(easeInOutQuad(relScrollTop,value[0],value[1]-value[0],duration).toFixed(2));
+      }
+      else {
+        return easeInOutQuad(relScrollTop,value[0],value[1]-value[0],duration).toFixed(2);
+      }
 
     },
 

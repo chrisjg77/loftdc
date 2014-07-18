@@ -124,7 +124,22 @@ site:
       title: Gallery
     -
       name: contact-us
-      title: Contact Us
+      title: Contact
+      header: true
+      header_image: /img/loft-image-4.jpg
+      body:
+        -
+          contact: Dan Lovato
+          title: "Venue & Events Manager"
+          phone: "202.431.8516"
+          email: "info@TheLoftat600F.com"
+        -
+          image: /img/loft-lamp.jpg
+        -
+          contact: The Loft at 600 F
+          address1: 600 F Street NW
+          address2: Suite 300
+          address3: "Washington, DC 20004"
 network:
   domain: localhost
 log:
