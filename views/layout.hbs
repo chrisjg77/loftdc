@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <nav>
+  <nav class="nav hide-until-lg">
+    <a class="brand nav" href="/"><img src="{{{brand}}}" style="margin-left: -5%;" /></a>
     {{#each sections}}
     <a href="{{this.href}}">{{this.title}}</a>
     {{/each}}

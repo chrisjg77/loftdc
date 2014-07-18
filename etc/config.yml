@@ -10,6 +10,7 @@ site:
   js:
     - href: /vendor/jquery-1.8.3.min.js
     - href: /js/parallax.js
+    - href: /js/header.js
   sections:
     -
       name: about
@@ -18,7 +19,7 @@ site:
       tagline: "The Loft at 600 F is a vibrant, exciting, and inviting event space in the Penn Quarter/Chinatown neighborhood of Washington DC."
       image: /img/loft-table.jpg
       caption: "A fully set table at the Loft"
-      body: "Perched on the third floor of a historic building across from the Verizon Center, the light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br><br> Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making The Loft at 600 F the best new place to meet in DC."
+      body: "Perched on the third floor of a historic building across from the Verizon Center, the light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br> Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making The Loft at 600 F the best new place to meet in DC."
     -
       name: the-space
       title: The Space
@@ -30,7 +31,7 @@ site:
           caption: "<strong>Total Square Footage:</strong> 2,152 square feet"
           plain_caption: "Total Square Footage: 2,152 square feet"
         -
-          copy: "The Loft at 600 F is a versatile space, available for whatever your event needs may be. The light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br><br>Perfect for happy hours, networking events, book signings, meet-and-greets, as a pre- or after party lounge and so much more. Exposed brick, large windows and cozy modern touches distinguish this space as the hip new place to meet."
+          copy: "The Loft at 600 F is a versatile space, available for whatever your event needs may be. The light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br>Perfect for happy hours, networking events, book signings, meet-and-greets, as a pre- or after party lounge and so much more. Exposed brick, large windows and cozy modern touches distinguish this space as the hip new place to meet."
           equipment:
             title: Furniture/Equipment <span class="note">*</span>
             list:
@@ -79,11 +80,45 @@ site:
             - text: "Book signings"
             - text: "Photo shoots"
             - text: "Holiday events"
-          image: ""
+          image: /img/loft-food.jpg
+          caption: Loft food
         -
           title: Catering
-          copy: "The loft at 600F allows outside catering of all kinds. Our preferred vendors appear below, but other vendors may provide service on-site with proof of insurance.<br><br>Clients are required to hire an ABC licensed bartender (or full-service caterer) if alcohol will be served at their event. <i>Proof of licensing and insurance is required</i>."
-
+          copy: "The loft at 600F allows outside catering of all kinds. Our preferred vendors appear below, but other vendors may provide service on-site with proof of insurance.<br>Clients are required to hire an ABC licensed bartender (or full-service caterer) if alcohol will be served at their event. <i>Proof of licensing and insurance is required</i>."
+          caterers:
+            -
+              logo: img/logo-ridgewells.png
+              url: "#"
+              title: "Ridgewells"
+              address1: "5525 Dorsey Lane"
+              address2: "Bethesda, MD 20816"
+              phone: "301.907.3712"
+              fax: "301.907.3733"
+              email: "tmoyher@ridewells.com"
+            -
+              logo: img/logo-mainevent.png
+              url: "#"
+              title: "Main Event Caterers"
+              address1: "3870 S. Four Mile Run Drive"
+              address2: "Arlington, VA 22206"
+              phone: "703.820.2028 x223"
+              fax: "703.820.2054"
+            -
+              logo: img/logo-rkristi.png
+              url: "#"
+              title: "R. Kristi Modern Hospitality"
+              address1: "8775 Cloudleap Court"
+              address2: "Arlington, VA 22206"
+              phone: "1-888-RKRISTI (757-4784)"
+              email: "info@bykristi.com"
+            -
+              logo: img/logo-rr.jpg
+              url: "#"
+              title: "R & R Catering"
+              address1: "8004 Alban Road"
+              address2: "Springfield, VA 22150"
+              phone: "703.451.2798 x223"
+              fax: "703.451.4380"
     -
       name: gallery
       title: Gallery

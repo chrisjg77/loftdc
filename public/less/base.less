@@ -14,6 +14,7 @@ html {
 
 header {
   position: relative;
+  z-index: 10;
 }
 
 main {
@@ -37,7 +38,7 @@ p {
   font-weight: 100;
   font-size: 1em;
   font-size: 0.94em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 blockquote {
   font-weight: 100;
@@ -54,7 +55,13 @@ em {
   font-size: 0.83em;
   color: @auto_lighter;
 }
+i {
+  font-style: italic;
+}
 
+br {
+  line-height: 2;
+}
 hr {
   width: 80%;
   margin: 0 10%;
@@ -66,7 +73,7 @@ hr {
 ul {
   padding-left: 0.25em;
   line-height: 1.25;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 li {
   color: @auto_light;
@@ -77,7 +84,7 @@ li {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   text-align: center;
   width: 100%;
   z-index: 999;
@@ -85,7 +92,7 @@ nav {
   a {
     display: inline-block;
     color: #fefefe;
-    padding: 2em 1.5em;
+    padding: 1em 1.5em;
     text-decoration: none;
   }
 }
