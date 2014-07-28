@@ -1,10 +1,10 @@
 site:
   title: The Loft at 600F
   domain: localhost:3000
-  brand: /img/loft-logo-white.png
+  brand: /img/meeting-space-logo.png
   protocol: http
   typekit:
-    id: mvw7mfc
+    id: sue6sls
   css:
     - href: /css/style.css
   js:
@@ -24,12 +24,12 @@ site:
       name: the-space
       title: The Space
       header: true
-      header_image: /img/loft-image-2.jpg
+      header_image: /img/meeting-image-2.jpg
       body:
         -
-          image: /img/floor-plan.png
-          caption: "<strong>Total Square Footage:</strong> 2,152 square feet"
-          plain_caption: "Total Square Footage: 2,152 square feet"
+          image: /img/floor-plan-meeting.png
+          caption: "<strong>Total Square Footage:</strong> approximately 1,000 square feet"
+          plain_caption: "Total Square Footage: approximately 1,000 square feet"
         -
           copy: "The Loft at 600 F is a versatile space, available for whatever your event needs may be. The light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br>Perfect for happy hours, networking events, book signings, meet-and-greets, as a pre- or after party lounge and so much more. Exposed brick, large windows and cozy modern touches distinguish this space as the hip new place to meet."
           equipment:
@@ -63,7 +63,7 @@ site:
       name: events
       title: Events
       header: true
-      header_image: /img/loft-image-5.jpg
+      header_image: /img/meeting-image-3.jpg
       body:
         -
           title: Types of Events
@@ -126,7 +126,7 @@ site:
       name: contact-us
       title: Contact
       header: true
-      header_image: /img/loft-image-4.jpg
+      header_image: /img/meeting-image-4.jpg
       body:
         -
           contact: Dan Lovato
@@ -134,7 +134,7 @@ site:
           phone: "202.431.8516"
           email: "info@TheLoftat600F.com"
         -
-          image: /img/loft-lamp.jpg
+          image: /img/600f.jpg
         -
           contact: The Loft at 600 F
           address1: 600 F Street NW

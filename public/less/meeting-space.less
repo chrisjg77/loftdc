@@ -1,0 +1,134 @@
+/*
+ * Theme Name    : Loft
+ * Theme Author  : Chris Griffith
+ * Created       : 7/16/2014
+ * Last Updated  : 7/17/2014
+ * ====================================
+ */
+
+/*
+ * Base framework overrides
+ */
+body,
+html {
+  font-family: 'brandon-grotesque', 'arial', serif;
+  font-size: 20px;
+}
+
+h1,h2 {
+  text-transform: uppercase;
+  color: #fefefe;
+}
+
+header {
+  background: url('../img/meeting-image-1.jpg') no-repeat center center;
+  background-size: cover;
+
+  &::before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/dot-grid.png') repeat;
+    background-size: 55px;
+    opacity: 0.65;
+  }
+
+  &::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.65);
+  }
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+blockquote {
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 3em;
+  border-top: 8px solid #e3e3e3;
+  padding-bottom: 3em;
+}
+
+/*
+ * Theme mixins
+ */
+.inner-square {
+    content: "";
+    margin: 4%;
+    border: 1px solid fadeout(#fefefe,30%);
+    position: absolute;
+    width: 92%;
+    height: 92%;
+}
+
+.title {
+  &.section {
+    color: #333;
+    background: #f3f3f3;
+    bottom: 0;
+    width: 100%;
+    height: 4em;
+    display: none;
+    // .table;
+
+    &::before {
+      // .inner-square;
+    }
+
+    h2 {
+      color: #333;
+      text-align: center;
+      width: 3em;
+      .table-cell;
+    }
+  }
+}
+
+.banner {
+  position: relative;
+
+  &.parallax {
+    &::before {
+      content: " ";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url('../img/dot-grid.png') repeat;
+      background-size: 55px;
+      opacity: 0.5;
+    }
+
+    &::after {
+      content: " ";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .gradient(rgba(0,0,0,0),rgba(0,0,0,0.75));
+      // background: rgba(0,0,0,0.55);
+    }
+  }
+}
+
+.image {
+  &.crop {
+    overflow: hidden;
+    position: relative;
+    height: @main_crop_size - 1em;
+    width: @main_crop_size;
+    .border-radius (@main_crop_radius);
+  }
+}

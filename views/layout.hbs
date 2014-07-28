@@ -9,7 +9,7 @@
 </head>
 <body>
   <nav class="nav hide-until-lg">
-    <a class="brand nav" href="/"><img src="{{{brand}}}" style="margin-left: -5%;" /></a>
+    <a class="brand nav" href="/"><img src="{{{brand}}}" /></a>
     {{#each sections}}
     <a href="{{this.href}}">{{this.title}}</a>
     {{/each}}
@@ -19,7 +19,7 @@
     <div class="brand site">
       {{#if brand}}
         <h1 class="hidden">{{{title}}}</h1>
-        <img src="{{{brand}}}" style="margin-left: -5%;" />
+        <img src="{{{brand}}}"/>
       {{else}}
         <h1>{{{title}}}</h1>
       {{/if}}

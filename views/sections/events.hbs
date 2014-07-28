@@ -8,7 +8,11 @@
 </div>
 <div class="body section">
   <div class="wrapper section grid">
-    <div class="block block-lg-5">
+    <div class="block block-md-6">
+      <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reprehenderit obcaecati nihil dolores repellat, tempora sint at ipsam. </blockquote>
+    </div>
+    <div class="block block-lg-6">
+
       <h3>{{{body.0.title}}}</h3>
       <p>{{{body.0.copy}}}</p>
       <ul>
@@ -16,29 +20,6 @@
           <li>{{{this.text}}}</li>
         {{/each}}
       </ul>
-      <div class="image crop wrapper">
-        <img src="{{{body.0.image}}}" alt="{{{body.0.caption}}}"/>
-      </div>
     </div>
-    <div class="block block-lg-7">
-      <h3>{{{body.1.title}}}</h3>
-      <p>{{{body.1.copy}}}</p>
-
-      {{#each body.1.caterers}}
-      <div class="table">
-        <div class="image pull table-cell align-top">
-          <img src="{{{this.logo}}}" />
-        </div>
-        <div class="table-cell pad-left border-left">
-          <a href="{{{this.url}}}"><strong>{{{this.title}}}</strong></a> <br>
-          <p class="no-space">{{{this.address1}}}</p>
-          <p class="no-space">{{{this.address2}}}<br></p>
-          <p class="no-space"><i>Phone: {{{this.phone}}}</i></p>
-          {{#if this.fax}}<p class="no-space"><i>Fax: {{{this.fax}}}</i> <br></p>{{/if}}
-          {{#if this.email}}<p class="no-space"><em>{{{this.email}}}</em></p>{{/if}}
-        </div>
-      </div>
-      <br>
-      {{/each}}
   </div>
 </div>

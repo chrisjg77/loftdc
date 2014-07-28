@@ -1,6 +1,6 @@
 {
   "name": "the-loft-at-600f",
-  "version": "0.0.0",
+  "version": "0.0.0-1",
   "description": "The Loft at 600 F is a vibrant, exciting, and inviting event space in the Penn Quarter/Chinatown neighborhood of Washington DC.",
   "private": true,
   "main": "server.js",
@@ -14,7 +14,8 @@
   },
   "license": "none",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "start": "node server.js"
   },
   "dependencies": {
     "cantina": "cantina/cantina#3.x",
@@ -31,5 +32,9 @@
     "grunt-nodemon": "^0.3.0",
     "grunt-notify": "^0.3.0",
     "mocha": "^1.18.2"
+  },
+  "subdomain": "terraeclipse-loft",
+  "engines": {
+    "node": "0.10.x"
   }
 }
