@@ -16,10 +16,10 @@ site:
       name: about
       title: About
       header: false
-      tagline: "The Loft at 600 F is a vibrant, exciting, and inviting event space in the Penn Quarter/Chinatown neighborhood of Washington DC."
-      image: /img/loft-table.jpg
+      tagline: "Washington DC's premiere corporate meeting and idea space."
+      image: /img/wash-monument.jpg
       caption: "A fully set table at the Loft"
-      body: "Perched on the third floor of a historic building across from the Verizon Center, the light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br> Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making The Loft at 600 F the best new place to meet in DC."
+      body: "Annex DC is a secure, private, and beautiful corporate meeting space in the Penn Quarter/Chinatown neighborhood of Washington DC.<br>Across from the Verizon Center, the light-filled, modern space is perfect for small corporate retreats, board meetings, strategy sessions, and brainstorming workshops.<br>Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making the Annex DC a perfect fit for you and your team to get out of the office and focus on your ideas. <br>Washington D.C. -- Visiting our nations capital from out of town? Meeting with our government? Centrally located between the Capitol, White House and many federal government buildings -- the Annex DC makes for an excellent 'home base' for individuals, campaigns, and organizations. Ask about our non-profit discounts!"
     -
       name: the-space
       title: The Space
@@ -31,9 +31,9 @@ site:
           caption: "<strong>Total Square Footage:</strong> approximately 1,000 square feet"
           plain_caption: "Total Square Footage: approximately 1,000 square feet"
         -
-          copy: "The Loft at 600 F is a versatile space, available for whatever your event needs may be. The light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour. <br>Perfect for happy hours, networking events, book signings, meet-and-greets, as a pre- or after party lounge and so much more. Exposed brick, large windows and cozy modern touches distinguish this space as the hip new place to meet."
+          copy: "The Annex DC is a versatile space, with two main rooms and a greeting lobby. The light-filled, modern space can be set in various layouts ranging from a comfy lounge to a formal conference table or from a engaging lecture to an inviting happy hour.<br>Perfect for political strategy sessions, quiet private meetings, small business retreats, idea brainstorming -- exposed brick, large windows and cozy modern touches distinguish this space as the ideal place to focus on your mission."
           equipment:
-            title: Furniture/Equipment <span class="note">*</span>
+            title: Furniture/Equipment # <span class="note">*</span>
             list:
               - text: "Custom sofas, available in various setups"
               - text: "Movable bars"
@@ -67,19 +67,13 @@ site:
       body:
         -
           title: Types of Events
-          copy: "The Loft at 600 F is a multi-purpose space that can be set to accomodate events of all kinds, including:"
+          copy: "The Annex DC is a multi-purpose space that can be set to accommodate events of all kinds."
           events:
             - text: "Corporate meetings and conferences"
-            - text: "Birthday parties"
-            - text: "Weddings"
-            - text: "Engagement parties, bridal showers, and baby showers"
-            - text: "Pop-ups for retail, art galleries, or group classes"
-            - text: "Fundraisers"
-            - text: "Happy hours"
-            - text: "Screenings"
-            - text: "Book signings"
-            - text: "Photo shoots"
-            - text: "Holiday events"
+            - text: "Strategy sessions"
+            - text: "Idea/Brainstorming meetings"
+            - text: "Off-site employee evalutaions (mass interviews)"
+            - text: "Business retreats"
           image: /img/loft-food.jpg
           caption: Loft food
         -

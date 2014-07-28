@@ -9,12 +9,11 @@
 <div class="body section">
   <div class="wrapper section grid">
     <div class="block block-md-6">
-      <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reprehenderit obcaecati nihil dolores repellat, tempora sint at ipsam. </blockquote>
+      <blockquote>{{{body.0.copy}}}</blockquote>
     </div>
     <div class="block block-lg-6">
 
       <h3>{{{body.0.title}}}</h3>
-      <p>{{{body.0.copy}}}</p>
       <ul>
         {{#each body.0.events}}
           <li>{{{this.text}}}</li>
