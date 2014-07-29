@@ -130,9 +130,9 @@ site:
         -
           image: /img/meeting-image-4.jpg
         -
-          contact: The Loft at 600 F
+          contact: Annex DC
           address1: 600 F Street NW
-          address2: Suite 300
+          address2: Suite 400
           address3: "Washington, DC 20004"
 network:
   domain: localhost
