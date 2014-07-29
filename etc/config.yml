@@ -1,7 +1,7 @@
 site:
   title: The Loft at 600F
   domain: localhost:3000
-  brand: /img/meeting-space-logo.png
+  brand: /img/annex-logo.png
   protocol: http
   typekit:
     id: sue6sls
@@ -19,7 +19,7 @@ site:
       tagline: "Washington DC's premiere corporate meeting and idea space."
       image: /img/wash-monument.jpg
       caption: "A fully set table at the Loft"
-      body: "Annex DC is a secure, private, and beautiful corporate meeting space in the Penn Quarter/Chinatown neighborhood of Washington DC.<br>Across from the Verizon Center, the light-filled, modern space is perfect for small corporate retreats, board meetings, strategy sessions, and brainstorming workshops.<br>Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making the Annex DC a perfect fit for you and your team to get out of the office and focus on your ideas. <br>Washington D.C. -- Visiting our nations capital from out of town? Meeting with our government? Centrally located between the Capitol, White House and many federal government buildings -- the Annex DC makes for an excellent 'home base' for individuals, campaigns, and organizations. Ask about our non-profit discounts!"
+      body: "Annex DC is a secure, private, and beautiful corporate meeting space in the Penn Quarter/Chinatown neighborhood of Washington DC.<br>Across from the Verizon Center, the light-filled, modern space is perfect for small corporate retreats, board meetings, strategy sessions, and brainstorming workshops.<br>Chic furnishings and exposed brick are accented with modern technology in the perfect downtown location making the Annex DC a perfect fit for you and your team to get out of the office and focus on your ideas. <br>Washington D.C. -- Visiting our nations capital from out of town? Meeting with our government? Centrally located between the Capitol, White House and many federal government buildings -- the Annex DC makes for an excellent 'home base' for individuals, campaigns, and organizations. <strong>Ask about our non-profit discounts!</strong>"
     -
       name: the-space
       title: The Space
@@ -120,7 +120,7 @@ site:
       name: contact-us
       title: Contact
       header: true
-      header_image: /img/meeting-image-4.jpg
+      header_image: /img/capitol.jpg
       body:
         -
           contact: Dan Lovato
@@ -128,7 +128,7 @@ site:
           phone: "202.431.8516"
           email: "info@TheLoftat600F.com"
         -
-          image: /img/600f.jpg
+          image: /img/meeting-image-4.jpg
         -
           contact: The Loft at 600 F
           address1: 600 F Street NW

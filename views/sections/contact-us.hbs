@@ -7,29 +7,35 @@
   {{/if}}
 </div>
 <div class="body section">
-  <div class="wrapper section grid">
+    <div class="wrapper content">
     <div class="block block-md-6 text-centered">
       <h4 class="no-space">{{{body.0.contact}}}</h4>
       <h5>{{{body.0.title}}}</h5>
       <p class="no-space bigger">{{{body.0.phone}}}</p>
       <p class="no-space"><a href="mailto:{{{body.0.email}}}">{{{body.0.email}}}</a></p>
     </div>
-{{!--     <div class="block-md-4 table-cell">
-      <div class="wrapper image crop">
-        <img src="{{{body.1.image}}}" />
-      </div>
-    </div> --}}
     <div class="block block-md-6 text-centered">
       <h4>{{{body.2.contact}}}</h4>
       <p class="no-space">{{{body.2.address1}}}</p>
       <p class="no-space">{{{body.2.address2}}}</p>
       <p class="no-space">{{{body.2.address3}}}</p>
     </div>
+  </div>
+  <div class="wrapper section grid">
+    <hr>
+    <div class="block block-md-12">
+      <div class="image">
+        <img src="{{{body.1.image}}}" style="margin-top: -20%;" />
+      </div>
+    </div>
+
     <hr>
     <div class="block block-md-6">
       <h3>Location</h3><br>
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d776.2942448919806!2d-77.0201249!3d38.897068000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b78e4bf9f5ff%3A0x58d41801bececd63!2s600+F+St+NW%2C+Washington%2C+DC+20004!5e0!3m2!1sen!2sus!4v1405716552266" width="100%" height="450" frameborder="0" style="border:0"></iframe>
     </div>
+    <div class="block block-md-6">
+      <h3>Driving Directions</h3>
     </div>
   </div>
 
